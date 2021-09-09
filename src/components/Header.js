@@ -1,15 +1,14 @@
-import React from 'react'
+import { React, useState } from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/logo.png'
 
 const Header = () => {
-  var navLinks = document.getElementById('nav-links')
   function showMenu() {
-    navLinks.style.right = '1px'
+    document.getElementById('nav-links').style.right = '0px'
   }
   function hideMenu() {
-    navLinks.style.right = '-200px'
+    document.getElementById('nav-links').style.right = '-200px'
   }
 
   return (
@@ -60,7 +59,6 @@ const Header = () => {
           dicta quod quibusdam error voluptates!
         </p>
         <Link to='' className='hero-btn'>
-          {' '}
           Visit Us To Know More
         </Link>
       </div>
