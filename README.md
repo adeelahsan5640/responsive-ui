@@ -1,3 +1,3 @@
-<h1>Deploy</h1>
-Click on below link to visit website.
-university-by-adeel.surge.sh
+<h2>Deploy</h2>
+Click on below link to visit website. 
+<h4>university-by-adeel.surge.sh</h4>
