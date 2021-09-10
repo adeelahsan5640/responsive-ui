@@ -88,7 +88,17 @@ const Contact = () => {
               </span>
             </div>
           </div>
-          <div className='contact-col'></div>
+          <div className='contact-col'>
+            <form action=''>
+              <input type='text' placeholder='Enter your name' required />
+              <input type='email' placeholder='Enter your email' required />
+              <input type='text' placeholder='Enter your subject' required />
+              <textarea rows='8' placeholder='Message' required></textarea>
+              <button type='submit' class='hero-btn red-btn'>
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </section>
       <Footer />
